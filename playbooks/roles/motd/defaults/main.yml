@@ -1,0 +1,4 @@
+motd_path: /etc/motd
+
+company: "DevOps Academy"
+support_email: "support@example.com"

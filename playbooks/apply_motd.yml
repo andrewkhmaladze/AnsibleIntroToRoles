@@ -1,0 +1,8 @@
+---
+- name: Apply MOTD role to all hosts
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - role: motd

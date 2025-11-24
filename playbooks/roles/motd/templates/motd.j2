@@ -1,0 +1,8 @@
+*********************************************
+   Welcome to {{ ansible_facts['hostname'] }}
+*********************************************
+ 
+Company: {{ company }}
+Support: {{ support_email }}
+OS: {{ ansible_facts['distribution'] }} {{ ansible_facts['distribution_version'] }}
+Kernel: {{ ansible_facts['kernel'] }}
